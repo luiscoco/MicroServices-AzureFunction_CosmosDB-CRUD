@@ -203,3 +203,23 @@ We get the CosmosDB URI and the PrimaryKey from the Azure Portal
 We run and test the Create Azure Function and we get this output
 
 We test the function with **Postman** 
+
+We first test the **POST** request
+
+http://localhost:7112/api/items
+
+![image](https://github.com/luiscoco/MicroServices-AzureFunction_CosmosDB-CRUD/assets/32194879/5a47a3c2-8ff5-4983-90f7-3bbd65951256)
+
+We also test the **GET** by id request
+
+http://localhost:7112/api/items/1
+
+![image](https://github.com/luiscoco/MicroServices-AzureFunction_CosmosDB-CRUD/assets/32194879/976cd139-151b-4221-ab77-6b99c17cd885)
+
+We test the **PUT** by id request
+
+![image](https://github.com/luiscoco/MicroServices-AzureFunction_CosmosDB-CRUD/assets/32194879/87dbbf1b-65b4-42b4-ae67-492a564f1ddd)
+
+We finally test the **DELETE** by id 
+
+![image](https://github.com/luiscoco/MicroServices-AzureFunction_CosmosDB-CRUD/assets/32194879/982bc3ab-ceb5-46cf-b78c-6f9778211127)
