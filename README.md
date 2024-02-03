@@ -77,6 +77,10 @@ dotnet new func -n CosmosDbCrudFunctions --Framework net8.0
 cd CosmosDbCrudFunctions
 ```
 
+We create a new file for the CRUD operations, see the project folders structure
+
+![image](https://github.com/luiscoco/MicroServices-AzureFunction_CosmosDB-CRUD/assets/32194879/e31ff742-060e-4625-aedb-568ce5fa856b)
+
 ## 3. Add NuGet Package for Cosmos DB
 
 ![image](https://github.com/luiscoco/MicroServices-AzureFunction_CosmosDB-CRUD/assets/32194879/7c56eded-258e-4dac-92ce-ad6448612815)
