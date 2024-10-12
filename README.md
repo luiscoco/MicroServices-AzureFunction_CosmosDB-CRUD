@@ -272,6 +272,7 @@ We verify in the Azure Portal the deployment
 
 ![image](https://github.com/user-attachments/assets/98b12602-0bc3-4e1d-8e54-54a75aef81be)
 
+![image](https://github.com/user-attachments/assets/6419c7bc-0650-43fe-846d-cc5b734a138a)
 
 
 
