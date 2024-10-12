@@ -147,6 +147,12 @@ namespace CosmosDbCrudFunctions
 
         private static async Task<HttpResponseData> ReadItemAsync(HttpRequestData req, Container container, string id)
         {
+            if (string.IsNullOrEmpty(id))
+            {
+                // Return all items if no ID is provided
+                return await GetAllItemsAsync(req, container);
+            }
+            
             try
             {
                 ItemResponse<dynamic> responseItem = await container.ReadItemAsync<dynamic>(id, new PartitionKey(id));
@@ -161,6 +167,23 @@ namespace CosmosDbCrudFunctions
                 await response.WriteStringAsync("Item not found");
                 return response;
             }
+        }
+
+        private static async Task<HttpResponseData> GetAllItemsAsync(HttpRequestData req, Container container)
+        {
+             var query = new QueryDefinition("SELECT * FROM c");
+             FeedIterator<dynamic> resultSetIterator = container.GetItemQueryIterator<dynamic>(query);
+        
+             List<dynamic> items = new List<dynamic>();
+             while (resultSetIterator.HasMoreResults)
+             {
+                 FeedResponse<dynamic> response = await resultSetIterator.ReadNextAsync();
+                 items.AddRange(response);
+             }
+        
+             var responseAll = req.CreateResponse(System.Net.HttpStatusCode.OK);
+             await responseAll.WriteStringAsync(JsonConvert.SerializeObject(items));
+             return responseAll;
         }
 
         private static async Task<HttpResponseData> UpdateItemAsync(HttpRequestData req, Container container, string id)
