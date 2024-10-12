@@ -264,6 +264,13 @@ We press the **Publish** button
 
 ![image](https://github.com/user-attachments/assets/877c79ac-f979-4247-9030-b9f5597f7ff6)
 
+We verify in the Azure Portal the deployment
+
+![image](https://github.com/user-attachments/assets/e65b7ba1-94d2-4157-a832-a2e679ca26a3)
+
+![image](https://github.com/user-attachments/assets/9b40a306-004e-40d2-a7dd-811acfa824f4)
+
+![image](https://github.com/user-attachments/assets/98b12602-0bc3-4e1d-8e54-54a75aef81be)
 
 
 
