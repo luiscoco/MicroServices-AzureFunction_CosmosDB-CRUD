@@ -240,21 +240,30 @@ Select the menu option Publish
 
 ![image](https://github.com/user-attachments/assets/9d5fe7ea-ec17-46e4-8e02-2c67d63b2b53)
 
-Press the button Add a Publising Profile
+Press the button **Add a Publising Profile**
 
 ![image](https://github.com/user-attachments/assets/e7178bb3-484b-4dbc-986a-3f4cfebfa867)
 
-Select where to publish the application. We select Azure
+Select where to publish the application. We select **Azure**
 
 ![image](https://github.com/user-attachments/assets/7e79d010-63e2-486a-b2ba-209b15c0cf4d)
 
-Select the specific publising target
+Select the specific publising target **Azure Function (Linux)**
 
 ![image](https://github.com/user-attachments/assets/8abbc6db-f67a-45e0-b952-c061884cfe3a)
 
-Select the Azure Function in Azure Portal and press the Finish button
+Select the Azure Function in Azure Portal and press the **Finish** button
 
 ![image](https://github.com/user-attachments/assets/7dc7c371-9f9b-41fa-974a-cfd0ea5a7924)
+
+We get the confirmation messages after publising and press the **Close** button
+
+![image](https://github.com/user-attachments/assets/90fd995b-6816-42ab-80ba-b7a4b23f2b37)
+
+We press the **Publish** button
+
+![image](https://github.com/user-attachments/assets/877c79ac-f979-4247-9030-b9f5597f7ff6)
+
 
 
 
