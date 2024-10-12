@@ -274,6 +274,14 @@ We verify in the Azure Portal the deployment
 
 ![image](https://github.com/user-attachments/assets/6419c7bc-0650-43fe-846d-cc5b734a138a)
 
+![image](https://github.com/user-attachments/assets/68660586-c6ea-460f-b986-8cfc10ec8085)
+
+We also test the Azure Function in Postman
+
+https://mycosmosdbcrudazurefunction.azurewebsites.net/api/items/?code=SWCyUgbqY6yDdAMhmP69EekVukGjwhPl2oQWWWMoUDK-AzFucN7Zjw%3D%3D
+
+![image](https://github.com/user-attachments/assets/d20e8c69-433c-494a-938b-decc2edfc8a2)
+
 
 
 
