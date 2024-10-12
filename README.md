@@ -88,7 +88,7 @@ We create a new file for the CRUD operations, see the project folders structure
 ## 4. Implement the CRUD operations in one Azure Function
 
 ```csharp
-using Microsoft.Azure.Functions.Worker;
+﻿using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
