@@ -271,6 +271,9 @@ Select where to publish the application. We select **Azure**
 
 ![image](https://github.com/user-attachments/assets/7e79d010-63e2-486a-b2ba-209b15c0cf4d)
 
+**IMPORTANT NOTE**: it is mandatory to create in Azure Portal or with Azure CLI and Azure Fuction to host the Azure Function developed in Visual Studio 2022
+Otherwise no available service will appear in the publishing list. For more details about it see the URL: 
+
 Select the specific publising target **Azure Function (Linux)**
 
 ![image](https://github.com/user-attachments/assets/8abbc6db-f67a-45e0-b952-c061884cfe3a)
