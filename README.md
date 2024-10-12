@@ -225,7 +225,7 @@ In your **local.settings.json** file, add your Cosmos DB connection string as fo
 
 We get the CosmosDB URI and the PrimaryKey from the Azure Portal
 
-![image](https://github.com/luiscoco/MicroServices-AzureFunction_CosmosDB-CreateItem/assets/32194879/6739542b-3080-4667-aace-146cc02a8ae0)
+![image](https://github.com/user-attachments/assets/b432b99f-3210-40b0-bbc9-81db757a25f9)
 
 ## 6. Run and test the Azure Function with Postman
 
