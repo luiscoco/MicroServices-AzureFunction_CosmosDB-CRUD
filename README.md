@@ -30,7 +30,7 @@ We choose the service **location**: West Europe
 
 Capacity mode: **serverless**
 
-![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-AzureCosmosDB/assets/32194879/ed5a1407-0303-44b3-b528-7a7fc1398d80)
+![image](https://github.com/user-attachments/assets/d2a983b4-48e2-4bdf-86ac-dab5ab40a8ab)
 
 We navigate to the **Data Explorer** page and we create a **New Database** and a **New Container**
 
