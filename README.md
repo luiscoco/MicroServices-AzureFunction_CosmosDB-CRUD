@@ -282,6 +282,10 @@ https://mycosmosdbcrudazurefunction.azurewebsites.net/api/items/?code=SWCyUgbqY6
 
 ![image](https://github.com/user-attachments/assets/d20e8c69-433c-494a-938b-decc2edfc8a2)
 
+https://mycosmosdbcrudazurefunction.azurewebsites.net/api/items/1?code=SWCyUgbqY6yDdAMhmP69EekVukGjwhPl2oQWWWMoUDK-AzFucN7Zjw%3D%3D
+
+![image](https://github.com/user-attachments/assets/6238dcea-9712-4862-9bb5-8b4144db664d)
+
 
 
 
