@@ -24,11 +24,9 @@ In following screen we input the required data for creating the service
 
 We create a new **ResourceGroup name**: myRG
 
-We set the **account name**: myCosmosdbCRUDAzureFunction
+We set the **account name**: mycosmosdbluis1974 
 
 We choose the service **location**: West Europe
-
-**Operating System**: Linux
 
 Capacity mode: **serverless**
 
